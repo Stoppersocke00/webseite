@@ -1,0 +1,66 @@
+.überschrift{
+    width: auto;
+    border: 1px solid rgb(27, 27, 27);
+    box-shadow: 8px 8px 5px rgb(19, 19, 19);
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, rgb(255, 0, 0), rgb(0, 0, 0) 40%, rgb(255, 0, 0));
+}
+h1{
+    color: cyan;
+}
+.überschriftwo{
+    font-size: 25px;
+    color: rgb(95, 145, 145);
+    text-shadow:8px 8px 5px rgb(255, 255, 255);
+}
+.test{
+    color: darkmagenta;
+    font-size: 60px;
+    text-align: center;
+}
+.dogememe{
+    border:solid black;
+    width: auto;
+    border-width: 6px;
+    background-image: linear-gradient(180deg, rgb(0, 81, 255), rgb(11, 177, 177) 40%, rgb(255, 0, 0));
+    padding: 0px 500px;
+}
+body{
+    background-image: url("ss.jpg");
+}
+button{
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(179, 179, 179) 40%, rgb(0, 0, 0));
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    text-shadow: 8px 8px 5px rgb(255, 255, 255);
+}
+.wohin{
+    color:rgb(95, 145, 145);
+    text-shadow: 8px 8px 5px rgb(255, 255, 255);
+}
+.footer{
+    text-align: right;
+    text-shadow: 8px 8px 5px rgb(255, 255, 255);
+}
+.überschriftsm{
+    text-align: center;
+}
+.navsm{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.infossm{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 15px;
+    border: none;
+    padding: 80px 6px;
+    box-shadow: 8px 8px 5px rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgb(255,0,0), rgb(0,0,0),rgb(255,255,255));
+}
