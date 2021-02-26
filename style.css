@@ -68,5 +68,5 @@ button{
     align-content: center;
 }
 .tradingview-widget-container{
-    text-align: center;
+    margin:0 auto;
 }
