@@ -70,3 +70,31 @@ button{
 .tradingview-widget-container{
     margin:0 auto;
 }
+#laden {
+    animation: fortschritt 1s steps(10000);
+    animation: orbit 1s infinite linear;
+}
+@keyframes fortschritt { 
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes orbit { 
+    from{
+        transform: rotate(0) 
+    }
+    to{
+        transform: rotate(360deg) 
+    }
+}
+output {
+	height: 910px;
+	background-image: repeating-linear-gradient(135deg, rgb(255,0,0), rgb(0, 255, 0), rgb(0, 0, 255), black 20px);
+	border-radius: 0.5em;
+	display: block;
+}
+
