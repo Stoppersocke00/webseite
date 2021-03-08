@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>!!!FLASHWARNING!!!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
+<script>
+
+    function changeBackground(imgid){
     
-</body>
+    // liste mit den bildern:
+    images = new Array("blue.png","green.png","red.png","yellow.png","pink.png");
+    
+    // neues hintergrund bild:
+    document.body.style.backgroundImage = "url('" + images[imgid] + "')";
+    
+    // neuen Arrayzeiger festlegen:
+    anzahl = images.length - 1;
+    imgid = (anzahl > imgid) ? imgid+1 : 0;
+    
+    // function nach 1 sekunde (1000 millisekunden) wieder aufrufen:
+    window.setTimeout("changeBackground("+imgid+")", 300);
+    }
+    
+    </script>
+    </head>
+    <body onload="changeBackground(0);">
+        <output id="laden"></output>
+    </body>
 </html>
