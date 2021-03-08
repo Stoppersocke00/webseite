@@ -35,15 +35,14 @@
                     <button type="submit">Hier her</button>
                 </form>
                 <br>
-                <form action="flash.html">
                     <label for="converter">!!!FLASHWARNING!!!</label>
+                    <button type="submit" onclick="myFunction()">Hier her</button>
+                <br>
+                <form action="sm.html">
+                    <label for="converter">Social Media</label>
                     <button type="submit">Hier her</button>
                 </form>
                 <br>
-                <form action="sm.html">
-                    <label for="converter">Social Media:</label>
-                    <button type="submit">Hier her</button>
-                </form>
             </ul>
         </nav>
     </div>
@@ -76,5 +75,22 @@
 }
   </script>
 </div>
+<script>
+    function myFunction() {
+        function enterFullscreen(element) {
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+  } else if(element.webkitRequestFullscreen) {
+    element.webkitRequestFullscreen();
+  }
+}
+
+enterFullscreen(document.documentElement);
+window.location = "flash.html";
+};
+    
+</script>
 </body>
 </html>
